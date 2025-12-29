@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahtaj Platform</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Tahtaj Platform</h1>
+            <nav>
+                <ul>
+                    <li><a href="landing.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section class="hero">
+            <h2>Welcome to Tahtaj</h2>
+            <p>Your platform for high-quality services and products.</p>
+            <a href="products.html" class="btn">Explore Products</a>
+        </section>
+
+        <section class="features">
+            <h3>Features</h3>
+            <ul>
+                <li>Easy-to-use interface</li>
+                <li>Fast and reliable</li>
+                <li>Secure and trusted</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Tahtaj Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
