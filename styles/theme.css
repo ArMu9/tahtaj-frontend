@@ -1,0 +1,55 @@
+/* =========================
+   Theme Styles
+========================= */
+
+/* Primary Brand Colors */
+:root {
+  --color-accent: #f59e0b; /* Orange accent */
+  --color-accent-dark: #b45309;
+  --color-background-light: #f9fafb;
+  --color-background-dark: #111827;
+}
+
+/* Buttons Overrides */
+.btn-primary {
+  background-color: var(--color-accent);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-accent-dark);
+}
+
+/* Hero Section */
+.hero {
+  background-color: var(--color-background-light);
+}
+
+/* Footer Overrides */
+.main-footer {
+  background-color: var(--color-background-light);
+  color: #374151;
+}
+
+/* Links */
+.main-nav a:hover {
+  color: var(--color-accent);
+}
+
+/* Responsive Typography */
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .feature h3 {
+    font-size: 18px;
+  }
+}
